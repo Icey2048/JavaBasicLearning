@@ -22,7 +22,7 @@ import java.io.InputStream;
  *          1、选择合适的io流对象
  *          2、创建对象
  *          3、传输数据
- *          4、关闭流对象（占用系统资源）
+ *          4、关闭流对象（占用系统资源）--比如一个文件系统限制一个进程只能访问1024个文件如果并发情况下，多个线程就会让他很卡
  */
 public class StreamDemo {
     public static void main(String[] args) {
